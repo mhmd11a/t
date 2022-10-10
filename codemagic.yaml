@@ -6,4 +6,4 @@ workflows:
         working_directory: android
         script: ./gradlew assembleRelease
     artifacts:
-      - app/build/outputs/**/**/*.apk
+      - TMessagesProj/app/build/outputs/**/**/*.apk
